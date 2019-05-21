@@ -15,7 +15,7 @@ function yourAnimal(myAnimal) {
 function add2(n) {
   const two = n;
   return n + 2;
-}
+};
 
 // describe('funkyFunction()', function() {
  //   it('returns a function', function() {
