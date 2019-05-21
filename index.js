@@ -28,10 +28,10 @@ function add2(n) {
   //    expect(window.theFunk).toEqual('FUNKY!')
  //   
  function funkyFunction () {
-   return theFunk();
+   return "FUNKY!";
  }
  function theFunk () {
-   return "FUNKY"
+   return funkyFunction();
  }
 
 
