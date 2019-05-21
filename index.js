@@ -17,7 +17,17 @@ function add2(n) {
   return n + 2;
 }
 
+// describe('funkyFunction()', function() {
+ //   it('returns a function', function() {
+//      expect(typeof window.funkyFunction()).toEqual('function')
+ //   })
+//  })
 
+ // describe('theFunk', function() {
+ ///   it('is "FUNKY!"', function() {
+  //    expect(window.theFunk).toEqual('FUNKY!')
+ //   })
+  })
 
 
 // We want to set theFunk equal to "FUNKY!" using our funkyFunction.
