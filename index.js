@@ -28,11 +28,10 @@ function add2(n) {
   //    expect(window.theFunk).toEqual('FUNKY!')
  //   
  function funkyFunction () {
-   return "FUNKY!";
+  var theFunk = "FUNKY!";
+  return funkyFunction;
  }
- function theFunk () {
-   return funkyFunction();
- }
+ 
 
 
 // We want to set theFunk equal to "FUNKY!" using our funkyFunction.
