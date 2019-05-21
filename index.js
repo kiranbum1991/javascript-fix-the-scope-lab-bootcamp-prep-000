@@ -15,7 +15,7 @@ function yourAnimal(myAnimal) {
 function add2(n) {
   const two = n;
   return n + 2;
-};
+}
 
 // describe('funkyFunction()', function() {
  //   it('returns a function', function() {
@@ -26,12 +26,17 @@ function add2(n) {
  // describe('theFunk', function() {
  ///   it('is "FUNKY!"', function() {
   //    expect(window.theFunk).toEqual('FUNKY!')
- //   })
-  })
+ //   
+ function funkyFunction () {
+   return theFunk();
+ }
+ function theFunk () {
+   return "FUNKY"
+ }
 
 
 // We want to set theFunk equal to "FUNKY!" using our funkyFunction.
 // NOTE: you only need to modify the code below this line.
 
-funkyFunction();
+
  
